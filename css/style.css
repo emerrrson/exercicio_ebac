@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Anybody:wght@400;600&family=Josefin+Sans&family=Kanit:wght@200&family=Open+Sans:ital@1&family=Press+Start+2P&family=Roboto+Slab&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1366px;
+    margin: 0 auto;
+    background-color: rgb(204, 204, 244);
+}
+
+header {
+    display: flex;
+    background-color: rgb(66, 10, 66);
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+
+li {
+    display: inline;
+    color: #fff;
+    margin: 8px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    
+
+
+    
+}
+
+section h2 p { 
+    flex-direction: column;
+    
+    
+    
+}
+
+section img {
+    margin-top: 16px;
+    width: 500px;
+    margin-left: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.subtitulo {
+    margin-bottom: 30px;
+}
+
+.subtitulo-formulario {
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.paragrafo {
+    margin-bottom: 30px;
+    border-bottom:  solid #060b32;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 16px;
+    resize: none;
+    margin-left: 150px;
+}
+
+section .imagem {
+    width: 25px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.botao {
+    background-color: rgb(66, 10, 66);
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.botao:hover {
+    transition: 2s;
+    background-color: rgb(123, 68, 123);
+    
+}
+
+input {
+    font-family: 'Roboto Slab', serif;
+    
+    
+}
+
+.drawing {
+    margin-top: 10px;
+    margin-left: 35px;
+}
